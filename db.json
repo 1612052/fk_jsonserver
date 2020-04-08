@@ -5,10 +5,17 @@
     { "id": 3, "title": "Post 3" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "some comment 1", "postId": 1 },
+    { "id": 2, "body": "some comment 2", "postId": 1 },
+    { "id": 3, "body": "some comment 3", "postId": 2 },
+    { "id": 4, "body": "some comment 4", "postId": 2 },
+    { "id": 5, "body": "some comment 5", "postId": 3 },
+    { "id": 6, "body": "some comment 5", "postId": 3 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {"id": 1, "username":"user1", "password":"user1", "name":"Name 1"},
+    {"id": 2, "username":"user2", "password":"user2", "name":"Name 2"},
+    {"id": 3, "username":"user3", "password":"user3", "name":"Name 3"},
+    {"id": 4, "username":"user4", "password":"user4", "name":"Name 4"}
+  ]
 }
