@@ -1,16 +1,19 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "userId":1, "title": "Post 1", "body": "Body 1" },
+    { "id": 2, "userId":1, "title": "Post 2", "body": "Body 1"},
+    { "id": 3, "userId":1, "title": "Post 2", "body": "Body 1"},
+    { "id": 4, "userId":2, "title": "Post 2", "body": "Body 1"},
+    { "id": 5, "userId":3, "title": "Post 2", "body": "Body 1"},
+    { "id": 6, "userId":4, "title": "Post 3", "body": "Body 1"}
   ],
   "comments": [
-    { "id": 1, "body": "some comment 1", "postId": 1 },
-    { "id": 2, "body": "some comment 2", "postId": 1 },
-    { "id": 3, "body": "some comment 3", "postId": 2 },
-    { "id": 4, "body": "some comment 4", "postId": 2 },
-    { "id": 5, "body": "some comment 5", "postId": 3 },
-    { "id": 6, "body": "some comment 5", "postId": 3 }
+    { "id": 1, "postId": 1, "body": "some comment 1"},
+    { "id": 2, "postId": 1, "body": "some comment 2"},
+    { "id": 3, "postId": 2, "body": "some comment 3"},
+    { "id": 4, "postId": 2, "body": "some comment 4"},
+    { "id": 5, "postId": 3, "body": "some comment 5"},
+    { "id": 6, "postId": 3, "body": "some comment 5"}
   ],
   "users": [
     {"id": 1, "username":"user1", "password":"user1", "name":"Name 1"},
