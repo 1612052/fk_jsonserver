@@ -10,6 +10,6 @@ Available resources
 
 You can use GET, POST, PUT, PATCH and DELETE. Changes aren't persisted between calls.
 
-#BaseUrl: https://my-json-server.typicode.com/1612052/typico_json_server
+#BaseUrl: https://my-json-server.typicode.com/1612052/fk_jsonserver
 
 #Tutorial: https://my-json-server.typicode.com/
